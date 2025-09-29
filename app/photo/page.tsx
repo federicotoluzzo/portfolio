@@ -36,13 +36,14 @@ export default function Home() {
 
   return (
     <div>
-      <div className="flex flex-row flex-wrap gap-4 items-center justify-center w-10/12 mx-auto">
+      <div className="flex flex-row flex-wrap gap-4 items-center justify-center lg:w-10/12 mx-auto">
         {scrambledImages.map(({ file, location }) => (
           <Drawer key={file}>
             <DrawerTrigger>
               <img
                 src={`${file}`}
-                className="rounded-xl transition-all cursor-pointer hover:scale-105"
+                className="rounded-xl transition-all cursor-pointer shadow-md shadow-foreground hover:scale-105 hover:shadow-lg"
+                height="300"
                 style={{ height: "30vh" }}
               />
             </DrawerTrigger>
@@ -51,7 +52,7 @@ export default function Home() {
                 <DrawerTitle>{location}</DrawerTitle>
                 <div className="flex mx-auto">
                   <img
-                    className="object-contain rounded-md"
+                    className="object-contain rounded-md shadow-xl shadow-foreground"
                     style={{ height: "70vh" }}
                     src={`${file}`}
                   />

@@ -28,6 +28,12 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <footer className="p-12 bg-gray-50">
+          <div id="copyright" align="center">
+            &copy;  2025 fuffo.net - All Rights Reserved.
+          </div>
+        </footer>
+        
       </body>
     </html>
   );
