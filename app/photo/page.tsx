@@ -22,7 +22,6 @@ export default function Home() {
     { file: "photos/IMG_1016.JPG", location: "Tokyo, Japan" },
     { file: "photos/_MG_0123.JPG", location: "Padua, Italy" },
     { file: "photos/_MG_0436.JPG", location: "Padua, Italy" },
-    { file: "photos/_MG_0603.JPG", location: "San Giorgio di Nogaro, Italy" },
     { file: "photos/_MG_0652.JPG", location: "San Giorgio di Nogaro, Italy" },
     { file: "photos/_MG_1078.JPG", location: "San Giorgio di Nogaro, Italy" },
     { file: "photos/_MG_1168.JPG", location: "San Giorgio di Nogaro, Italy" },
@@ -32,6 +31,7 @@ export default function Home() {
     { file: "photos/IMG_8166.JPG", location: "Idroscalo di Milano, Segrate, Italy" },
     { file: "photos/IMG_8464.JPG", location: "Idroscalo di Milano, Segrate, Italy" },
     { file: "photos/IMG_8487.JPG", location: "Idroscalo di Milano, Segrate, Italy" },
+    { file: "photos/IMG_8544.JPG", location: "Mestre, Venice, Italy" },
   ];
 
   // Fisher-Yates shuffle
@@ -48,13 +48,16 @@ export default function Home() {
 
   return (
     <div>
+      <header>
+        <h1 className="font-black text-center p-20 text-9xl text-transparent bg-gradient-to-t from-ctp-blue-700 to-ctp-yellow-700 bg-clip-text">Photo Portfolio</h1>
+      </header>
       <div className="flex flex-row flex-wrap gap-4 items-center justify-center lg:w-10/12 mx-auto my-10">
         {scrambledImages.map(({ file, location }) => (
           <Drawer key={file}>
             <DrawerTrigger>
               <img
                 src={`${file}`}
-                className="rounded-xl transition-all cursor-pointer shadow-md shadow-foreground hover:scale-105 hover:shadow-lg"
+                className="rounded-xl transition-all cursor-pointer hover:scale-105"
                 height="300"
                 style={{ height: "30vh" }}
               />
@@ -64,7 +67,7 @@ export default function Home() {
                 <DrawerTitle>{location}</DrawerTitle>
                 <div className="flex mx-auto">
                   <img
-                    className="object-contain rounded-md shadow-xl shadow-foreground"
+                    className="object-contain rounded-md"
                     style={{ height: "70vh" }}
                     src={`${file}`}
                   />
