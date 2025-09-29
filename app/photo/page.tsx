@@ -20,6 +20,8 @@ export default function Home() {
     { file: "_MG_0688.JPG", location: "Kyoto, Japan" },
     { file: "_MG_0800.JPG", location: "Kyoto, Japan" },
     { file: "IMG_1016.JPG", location: "Tokyo, Japan" },
+    { file: "_MG_0123.JPG", location: "Padua, Italy" },
+    { file: "_MG_0436.JPG", location: "Padua, Italy" },
   ];
 
   // Fisher-Yates shuffle
@@ -36,7 +38,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className="flex flex-row flex-wrap gap-4 items-center justify-center lg:w-10/12 mx-auto">
+      <div className="flex flex-row flex-wrap gap-4 items-center justify-center lg:w-10/12 mx-auto my-10">
         {scrambledImages.map(({ file, location }) => (
           <Drawer key={file}>
             <DrawerTrigger>

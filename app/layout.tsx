@@ -28,8 +28,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <footer className="p-12 bg-gray-50">
-          <div id="copyright" align="center">
+        <footer className="p-12 bg-gray-100">
+          <div id="copyright" className="flex mx-auto w-fit">
             &copy;  2025 fuffo.net - All Rights Reserved.
           </div>
         </footer>
