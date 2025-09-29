@@ -11,17 +11,22 @@ import {
 
 export default function Home() {
   const images = [
-    { file: "_MG_0034.JPG", location: "Tokyo, Japan" },
-    { file: "_MG_0039.JPG", location: "Tokyo, Japan" },
-    { file: "_MG_0082.JPG", location: "Tokyo, Japan" },
-    { file: "_MG_0093.JPG", location: "Tokyo, Japan" },
-    { file: "_MG_0329.JPG", location: "Tokyo, Japan" },
-    { file: "_MG_0602.JPG", location: "Tokyo, Japan" },
-    { file: "_MG_0688.JPG", location: "Kyoto, Japan" },
-    { file: "_MG_0800.JPG", location: "Kyoto, Japan" },
-    { file: "IMG_1016.JPG", location: "Tokyo, Japan" },
-    { file: "_MG_0123.JPG", location: "Padua, Italy" },
-    { file: "_MG_0436.JPG", location: "Padua, Italy" },
+    { file: "photos/_MG_0034.JPG", location: "Tokyo, Japan" },
+    { file: "photos/_MG_0039.JPG", location: "Tokyo, Japan" },
+    { file: "photos/_MG_0082.JPG", location: "Tokyo, Japan" },
+    { file: "photos/_MG_0093.JPG", location: "Tokyo, Japan" },
+    { file: "photos/_MG_0329.JPG", location: "Tokyo, Japan" },
+    { file: "photos/_MG_0602.JPG", location: "Tokyo, Japan" },
+    { file: "photos/_MG_0688.JPG", location: "Kyoto, Japan" },
+    { file: "photos/_MG_0800.JPG", location: "Kyoto, Japan" },
+    { file: "photos/IMG_1016.JPG", location: "Tokyo, Japan" },
+    { file: "photos/_MG_0123.JPG", location: "Padua, Italy" },
+    { file: "photos/_MG_0436.JPG", location: "Padua, Italy" },
+    { file: "photos/_MG_0603.JPG", location: "San Giorgio di Nogaro, Italy" },
+    { file: "photos/_MG_0652.JPG", location: "San Giorgio di Nogaro, Italy" },
+    { file: "photos/_MG_1078.JPG", location: "San Giorgio di Nogaro, Italy" },
+    { file: "photos/_MG_1168.JPG", location: "San Giorgio di Nogaro, Italy" },
+    { file: "photos/_MG_1234.JPG", location: "San Giorgio di Nogaro, Italy" },
   ];
 
   // Fisher-Yates shuffle
