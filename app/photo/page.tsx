@@ -49,7 +49,7 @@ export default function Home() {
   return (
     <div>
       <header>
-        <h1 className="font-black text-center p-20 text-9xl text-transparent bg-gradient-to-t from-ctp-blue-700 to-ctp-yellow-700 bg-clip-text">Photo Portfolio</h1>
+        <h1 className="font-black text-center p-20 text-5xl text-transparent bg-gradient-to-t from-ctp-blue-700 to-ctp-yellow-700 bg-clip-text lg:text-9xl">Photo Portfolio</h1>
       </header>
       <div className="flex flex-row flex-wrap gap-4 items-center justify-center lg:w-10/12 mx-auto my-10">
         {scrambledImages.map(({ file, location }) => (
