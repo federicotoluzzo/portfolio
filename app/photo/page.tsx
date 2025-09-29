@@ -27,6 +27,11 @@ export default function Home() {
     { file: "photos/_MG_1078.JPG", location: "San Giorgio di Nogaro, Italy" },
     { file: "photos/_MG_1168.JPG", location: "San Giorgio di Nogaro, Italy" },
     { file: "photos/_MG_1234.JPG", location: "San Giorgio di Nogaro, Italy" },
+    { file: "photos/IMG_7551.JPG", location: "Idroscalo di Milano, Segrate, Italy" },
+    { file: "photos/IMG_8038.JPG", location: "Idroscalo di Milano, Segrate, Italy" },
+    { file: "photos/IMG_8166.JPG", location: "Idroscalo di Milano, Segrate, Italy" },
+    { file: "photos/IMG_8464.JPG", location: "Idroscalo di Milano, Segrate, Italy" },
+    { file: "photos/IMG_8487.JPG", location: "Idroscalo di Milano, Segrate, Italy" },
   ];
 
   // Fisher-Yates shuffle
