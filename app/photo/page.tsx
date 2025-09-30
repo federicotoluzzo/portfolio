@@ -32,6 +32,10 @@ export default function Home() {
     { file: "photos/IMG_8464.JPG", location: "Idroscalo di Milano, Segrate, Italy" },
     { file: "photos/IMG_8487.JPG", location: "Idroscalo di Milano, Segrate, Italy" },
     { file: "photos/IMG_8544.JPG", location: "Mestre, Venice, Italy" },
+    { file: "photos/IMG_3161.JPG", location: "Lago Le Bandie, Treviso, Italy" },
+    { file: "photos/IMG_3251.JPG", location: "Lago Le Bandie, Treviso, Italy" },
+    { file: "photos/IMG_3320.JPG", location: "Lago Le Bandie, Treviso, Italy" },
+    { file: "photos/IMG_3359.JPG", location: "Lago Le Bandie, Treviso, Italy" },
   ];
 
   // Fisher-Yates shuffle
